@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-21 16:11:28.236490",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_no",
+  "emp_barcode",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_telib",
+  "image",
+  "gender",
+  "section_break_nt1er",
+  "section_break_wo7it",
+  "designation",
+  "department",
+  "email_id",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fetch_from": "id_no.emp_barcode",
+   "fieldname": "emp_barcode",
+   "fieldtype": "Barcode",
+   "label": "Emp Barcode"
+  },
+  {
+   "fetch_from": "emp_barcode.id_no",
+   "fetch_if_empty": 1,
+   "fieldname": "id_no",
+   "fieldtype": "Link",
+   "label": "ID No",
+   "options": "empolyee details1"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_telib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fetch_from": "id_no.gender",
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender ",
+   "options": "Female\nMale"
+  },
+  {
+   "fieldname": "section_break_nt1er",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wo7it",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Select",
+   "label": "Designation",
+   "options": "Accountant\nAnalyst\nAssociative\nBusiness Analyst"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Accounts\nCustomer Services\nHuman Resource\nManagement\nMarketing"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-21 16:24:40.318588",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "empolyees",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

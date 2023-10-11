@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{##}- {emp_barcode}",
+ "creation": "2023-09-21 15:55:34.026763",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_no",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_telib",
+  "image",
+  "emp_barcode",
+  "gender",
+  "section_break_nt1er",
+  "section_break_wo7it",
+  "designation",
+  "department",
+  "email_id",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_no",
+   "fieldtype": "Data",
+   "label": "ID No"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_telib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "emp_barcode",
+   "fieldtype": "Barcode",
+   "label": "Emp Barcode"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender ",
+   "options": "Female\nMale"
+  },
+  {
+   "fieldname": "section_break_nt1er",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Select",
+   "label": "Designation",
+   "options": "Accountant\nAnalyst\nAssociative\nBusiness Analyst"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Accounts\nCustomer Services\nHuman Resource\nManagement\nMarketing"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "section_break_wo7it",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-21 16:44:15.775275",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "empolyee details1",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2023-09-25 11:37:17.548185",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_no",
+  "barcode",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "image",
+  "gender",
+  "column_break_p3f6t",
+  "desginaton",
+  "department",
+  "email_id",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fetch_from": "barcode.id_no",
+   "fetch_if_empty": 1,
+   "fieldname": "id_no",
+   "fieldtype": "Link",
+   "label": "ID NO",
+   "options": "empolyee3"
+  },
+  {
+   "fetch_from": "id_no.barcode",
+   "fieldname": "barcode",
+   "fieldtype": "Image",
+   "label": "Barcode "
+  },
+  {
+   "fetch_from": "id_no.first_name",
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fetch_from": "id_no.middle_name",
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fetch_from": "id_no.last_name",
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fetch_from": "id_no.image",
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fetch_from": "id_no.gender",
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender",
+   "options": "Female\nMale"
+  },
+  {
+   "fieldname": "column_break_p3f6t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "id_no.desginaton",
+   "fieldname": "desginaton",
+   "fieldtype": "Select",
+   "label": "Desginaton",
+   "options": "Accountant\nAdministrative Assistant\nAdministrative Officer\nAnalyst\nAssociative\nBusiness Analyst"
+  },
+  {
+   "fetch_from": "id_no.department",
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Accounts\nCustmer Services\nHuman Resources\nManagement\nMarketing"
+  },
+  {
+   "fetch_from": "id_no.email_id",
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fetch_from": "id_no.mobile_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-25 12:21:29.955660",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "empp",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

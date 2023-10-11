@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-07 11:01:59.302247",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "scan",
+  "scan_data",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_pm3hj",
+  "gender",
+  "mobile_no",
+  "email_id",
+  "section_break_dpwj0",
+  "date",
+  "section_break_e236w",
+  "order_details",
+  "total_price1",
+  "add"
+ ],
+ "fields": [
+  {
+   "fieldname": "scan",
+   "fieldtype": "Button",
+   "label": "Scan"
+  },
+  {
+   "fieldname": "scan_data",
+   "fieldtype": "Barcode",
+   "label": "Scan Data"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pm3hj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_dpwj0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_e236w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "order_details",
+   "fieldtype": "Table",
+   "label": "order details",
+   "options": "sub category"
+  },
+  {
+   "fieldname": "total_price1",
+   "fieldtype": "Data",
+   "label": "Total price1"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "add"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-11 15:43:22.038850",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "parentorder2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

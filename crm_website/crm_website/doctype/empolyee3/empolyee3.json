@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2023-09-25 11:01:14.137068",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_no",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_v0d6c",
+  "gender",
+  "barcode",
+  "column_break_m5iyd",
+  "desginaton",
+  "department",
+  "email_id",
+  "mobile_no",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_no",
+   "fieldtype": "Data",
+   "label": "ID NO"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Barcode "
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Female\nMale"
+  },
+  {
+   "fieldname": "desginaton",
+   "fieldtype": "Select",
+   "label": "Desginaton",
+   "options": "Accountant\nAdministrative Assistant\nAdministrative Officer\nAnalyst\nAssociative\nBusiness Analyst"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Accounts\nCustmer Services\nHuman Resources\nManagement\nMarketing"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "column_break_v0d6c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_m5iyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "empolyee3",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-26 15:31:29.709692",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "empolyee3",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

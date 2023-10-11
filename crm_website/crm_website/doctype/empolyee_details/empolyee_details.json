@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-09-20 15:35:48.519195",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_no",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "barcode",
+  "image",
+  "gender",
+  "section_break_pohgb",
+  "desgination",
+  "department",
+  "email_id",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": " Image"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "desgination",
+   "fieldtype": "Select",
+   "label": "Desgination",
+   "options": "Accountant\nAnalyst\nBusiness analyst\nAssociative"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Accounts\nCustomer Service\nManagement\nMarketing\nHuman Resources"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Emp barcode"
+  },
+  {
+   "fieldname": "section_break_pohgb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_no",
+   "fieldtype": "Data",
+   "label": "Id No"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-21 15:30:55.599085",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "empolyee details",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

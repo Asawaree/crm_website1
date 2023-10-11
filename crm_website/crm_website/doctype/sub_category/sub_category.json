@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{item_name}- {###}",
+ "creation": "2023-09-08 18:36:59.323434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "items_name",
+  "price",
+  "item_type",
+  "quantity",
+  "total_price"
+ ],
+ "fields": [
+  {
+   "fetch_if_empty": 1,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": " Item Code",
+   "options": "Item master"
+  },
+  {
+   "fetch_from": "item_code.items_name",
+   "fieldname": "items_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": " Items Name",
+   "unique": 1
+  },
+  {
+   "fetch_from": "item_code.price",
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": " Price"
+  },
+  {
+   "fetch_from": "item_code.item_type",
+   "fieldname": "item_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": " Item type"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-11 14:16:55.537858",
+ "modified_by": "Administrator",
+ "module": "crm_website",
+ "name": "sub category",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
